@@ -1,0 +1,157 @@
+<style > html {
+  font-family: "Times New Roman", Times, serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#header-img {
+  height: 5vh;
+  width: 15vw;
+}
+body img {
+  height: 10vh;
+  width: 5vw;
+  margin: 10px;
+}
+header {
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding: 10px;
+}
+#nav-bar {
+  display: flex;
+  height: auto;
+  width: 75vw;
+  align-items: flex-start;
+  justify-content: end;
+}
+#nav-bar li {
+  list-style: none;
+  padding: 15px 100px 15px 100px;
+}
+#nav-bar a {
+  text-decoration: none;
+  color: black;
+}
+#GetStarted {
+  margin-top: 8vh;
+}
+#GetStarted,
+form {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#email {
+  height: 3vh;
+  width: 15vw;
+  margin: 5px;
+}
+#submit {
+  background-color: rgb(228, 182, 96);
+  width: 10vw;
+  height: 3vh;
+  margin: 5px;
+  border-style: none;
+  font-weight: bold;
+}
+#features {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.features {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+  width: 50vw;
+}
+.features2 {
+  padding: 10px;
+  width: 30vw;
+}
+#how-it-works {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+#pricing {
+  margin-top: 10px;
+  display: flex;
+  width: 100vw;
+  height: 50vh;
+  justify-content: center;
+}
+.tromb {
+  margin-right: 20px;
+  border: 1px solid black;
+  padding-bottom: 8px;
+  width: 15vw;
+  height: 30vh;
+}
+.tromb ul {
+  padding: 0px 10px 0px 10px;
+  height: 23vh;
+  text-align: center;
+}
+.tromb ul li {
+  list-style: none;
+  padding: 8px 10px 10px 10px;
+}
+.tromb .h {
+  background-color: lightgray;
+  text-align: center;
+  width: 100%;
+  height: 15%;
+  padding-top: 5px;
+}
+.tromb button {
+  border-style: none;
+  width: 5vw;
+  height: 3vh;
+  font-weight: bold;
+  background-color: rgb(228, 182, 96);
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+body {
+  margin: 0;
+}
+#last {
+  background-color: lightgray;
+  width: 48vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 5px 10px 5px 10px;
+}
+#last ul {
+  display: flex;
+  flex-direction: row;
+  height: 2vh;
+}
+#last ul li {
+  list-style: none;
+  padding: 10px;
+}
+#last ul li a {
+  text-decoration: none;
+  color: black;
+}
+.ftr {
+  color: gray;
+  margin-bottom: 10px;
+}
